@@ -1,0 +1,67 @@
+package day02repeat;
+
+public class C01_Variables {
+	 public static void main(String[] args) {
+	        /*
+	         * 1- Farkli 3 data turunde variable olusturun ve bunlari yazdirin 
+	         * 2- isim ve soyisim icin iki variable olusturun ve bunlari    
+	         *      isminiz : Mehmet 
+	         *      soyisminiz : Bulutluoz seklinde yazdirin 
+	         * 3- Iki farkli tamsayi data turunde 2 variable
+	         * olusturun bunlarin toplamini yazdirin 
+	         * 4- Bir tamsayi ve bir ondalikli
+	         * variable olusturun ve bunlarin toplamini yazdirin 
+	         * 5 – char data turunde bir variable olusturun ve yazdirin 
+	         * 6- Bir tamsayi, bir de char degisken olusturun
+	         * ve bunlarin toplamini yazdirin.
+	         
+* 1- Create variables in 3 different data types and print them
+* 2- Create two variables for name and surname and add them
+* your name : Mehmet
+* your last name : Print as cloudy
+* 3- 2 variables in two different integer data types
+* create print the sum of them
+* 4- An integer and a decimal
+* create variable and print their sum
+* 5 – Create and print a variable of type char data
+* 6- Create an integer and a char variable
+* and print their sum.
+	         */
+	        
+	        String ismim= "Mehmet Bulutluoz";
+	        
+	        System.out.println(ismim);
+	        
+	        char ilkHarf='S';
+	        
+	        boolean anlasildiMi = true;
+	        
+	        String  isminiz = "Ali" ;
+	        String soyisminiz = "Tuskan";
+	        
+	        // isminiz : Mehmet 
+	        
+	        System.out.println("isminiz : "+isminiz);
+	        // soyisminiz : Bulutluoz
+	        
+	        System.out.println("soyisminiz : " + soyisminiz);
+	        
+	        //Create 2 variables in two different integer data types and print their sum
+	        // Iki farkli tamsayi data turunde 2 variable olusturun bunlarin toplamini yazdirin 
+	        int a=10;
+	        short b=20;
+	        
+	        System.out.println(a+b); //30
+	        
+	        //Create an integer and a char variable and print their sum.
+	        // Bir tamsayi, bir de char degisken olusturun  ve bunlarin toplamini yazdirin.
+	        int sayi=25;
+	        char karakter='a';
+	        
+	        //If char variables are processed mathematically, the ascii value of the character that the char variable contains is processed.
+	        // char degiskenler matemetiksel isleme sokulursa char degiskenin barindirdigi karakterin 
+	        // ascii degeri isleme girer
+	        System.out.println(sayi + karakter); // 122
+	        
+	    }
+	}
