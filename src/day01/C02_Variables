@@ -1,0 +1,33 @@
+package day01repeat;
+
+public class C02_Variables {
+
+	public static void main(String[] args) {
+String okul="Yildiz Koleji";
+        //A variable cannot be created a second time with the same name and type of variable.
+        // ayni isim ve degisken turu ile ikinci defa variable olusturulamaz
+        // String okul="Mehmet Koleji";
+        
+        //A variable cannot be created a second time with the same name, even if it is a different data type.
+        // farkli data turu de olsa ayni isim ile ikinci defa variable olusturulamaz
+        // int okul=20;
+        
+        //We can assign a new value to an existing variable.
+        // var olan bir variable'a yeni deger atayabiliriz
+        okul="Ankara Koleji";
+        
+        
+        System.out.println(okul); // Mehmet Koleji
+        // If we want to add an explanation in the printing process
+        // yazdirma isleminde aciklama eklemek istersek
+        // mesela okul adi : Mehmet Koleji  yazdiralim
+        
+        
+        
+        System.out.println("okul adi : " + okul);// okul adi : Ankara Koleji
+        System.out.println("okul adi : " + "okul"); // okul adi : okul
+        
+        
+        
+    }
+}
